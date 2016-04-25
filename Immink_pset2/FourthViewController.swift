@@ -1,5 +1,5 @@
 //
-//  ThirdViewController.swift
+//  FourthViewController.swift
 //  Immink_pset2
 //
 //  Created by Emma Immink on 25-04-16.
@@ -8,16 +8,13 @@
 
 import UIKit
 
-class ThirdViewController: UIViewController {
+class FourthViewController: UIViewController {
 
-    var idstory = 0
-    var AppendWord : String?
-    
-    @IBOutlet weak var inputField: UITextField!
+    var wordString: [String] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("idstory: \(idstory)")
+        print("\(wordString)")
         
         // Do any additional setup after loading the view.
     }
@@ -27,20 +24,7 @@ class ThirdViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func ButtonClicked(sender: AnyObject) {
-        AppendWord = inputField.text
-        print("\(AppendWord)")
-    }
-    
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        
-        let fourthViewController = segue.destinationViewController as! FourthViewController
-        
-        fourthViewController.wordString.append("\(AppendWord)")
-        
-        print("\(fourthViewController.wordString)")
-    }
-    
+
     /*
     // MARK: - Navigation
 
