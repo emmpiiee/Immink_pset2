@@ -12,12 +12,13 @@ class ThirdViewController: UIViewController {
 
     var idstory = 0
     var AppendWord : String?
+    var AppendWord2 : String?
     
     @IBOutlet weak var inputField: UITextField!
-    
+    @IBOutlet weak var InputField2: UITextField!
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("idstory: \(idstory)")
         
         // Do any additional setup after loading the view.
     }
@@ -29,16 +30,17 @@ class ThirdViewController: UIViewController {
     
     @IBAction func ButtonClicked(sender: AnyObject) {
         AppendWord = inputField.text
-        print("\(AppendWord)")
+        AppendWord2 = InputField2.text
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         
         let fourthViewController = segue.destinationViewController as! FourthViewController
         
-        fourthViewController.wordString.append("\(AppendWord)")
+        fourthViewController.wordString.append("\(AppendWord!)")
         
-        print("\(fourthViewController.wordString)")
+        fourthViewController.wordString.append("\(AppendWord2!)")
+
     }
     
     /*

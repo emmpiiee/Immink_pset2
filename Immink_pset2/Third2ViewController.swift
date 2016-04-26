@@ -1,23 +1,18 @@
 //
-//  FourthViewController.swift
+//  Third2ViewController.swift
 //  Immink_pset2
 //
-//  Created by Emma Immink on 25-04-16.
+//  Created by Emma Immink on 26-04-16.
 //  Copyright © 2016 Emma Immink. All rights reserved.
 //
 
 import UIKit
 
-class FourthViewController: UIViewController {
+class Third2ViewController: UIViewController {
 
-    var wordString: [String] = []
-    var idstory = 0
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("idstory: \(idstory)")
-        print(wordString)
-        
+
         // Do any additional setup after loading the view.
     }
 

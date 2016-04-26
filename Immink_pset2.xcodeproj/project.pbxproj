@@ -17,6 +17,10 @@
 		B50A77E61CCE3AA100BA7186 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50A77E51CCE3AA100BA7186 /* SecondViewController.swift */; };
 		B50A77E81CCE3CEF00BA7186 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50A77E71CCE3CEF00BA7186 /* ThirdViewController.swift */; };
 		B50A77EA1CCE452700BA7186 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50A77E91CCE452700BA7186 /* FourthViewController.swift */; };
+		B5F4EADE1CCF5719007A09D3 /* Third2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F4EADD1CCF5719007A09D3 /* Third2ViewController.swift */; };
+		B5F4EAE01CCF572C007A09D3 /* Third3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F4EADF1CCF572C007A09D3 /* Third3ViewController.swift */; };
+		B5F4EAE21CCF5738007A09D3 /* Third4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F4EAE11CCF5738007A09D3 /* Third4ViewController.swift */; };
+		B5F4EAE41CCF5745007A09D3 /* Third5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F4EAE31CCF5745007A09D3 /* Third5ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,10 @@
 		B50A77E51CCE3AA100BA7186 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		B50A77E71CCE3CEF00BA7186 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		B50A77E91CCE452700BA7186 /* FourthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
+		B5F4EADD1CCF5719007A09D3 /* Third2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Third2ViewController.swift; sourceTree = "<group>"; };
+		B5F4EADF1CCF572C007A09D3 /* Third3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Third3ViewController.swift; sourceTree = "<group>"; };
+		B5F4EAE11CCF5738007A09D3 /* Third4ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Third4ViewController.swift; sourceTree = "<group>"; };
+		B5F4EAE31CCF5745007A09D3 /* Third5ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Third5ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +115,10 @@
 				B50A77B91CCE2AB600BA7186 /* ViewController.swift */,
 				B50A77E51CCE3AA100BA7186 /* SecondViewController.swift */,
 				B50A77E71CCE3CEF00BA7186 /* ThirdViewController.swift */,
+				B5F4EADD1CCF5719007A09D3 /* Third2ViewController.swift */,
+				B5F4EADF1CCF572C007A09D3 /* Third3ViewController.swift */,
+				B5F4EAE11CCF5738007A09D3 /* Third4ViewController.swift */,
+				B5F4EAE31CCF5745007A09D3 /* Third5ViewController.swift */,
 				B50A77E91CCE452700BA7186 /* FourthViewController.swift */,
 				B50A77BB1CCE2AB600BA7186 /* Main.storyboard */,
 				B50A77BE1CCE2AB600BA7186 /* Assets.xcassets */,
@@ -266,8 +278,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B50A77E61CCE3AA100BA7186 /* SecondViewController.swift in Sources */,
+				B5F4EAE01CCF572C007A09D3 /* Third3ViewController.swift in Sources */,
+				B5F4EADE1CCF5719007A09D3 /* Third2ViewController.swift in Sources */,
+				B5F4EAE21CCF5738007A09D3 /* Third4ViewController.swift in Sources */,
 				B50A77BA1CCE2AB600BA7186 /* ViewController.swift in Sources */,
 				B50A77E81CCE3CEF00BA7186 /* ThirdViewController.swift in Sources */,
+				B5F4EAE41CCF5745007A09D3 /* Third5ViewController.swift in Sources */,
 				B50A77B81CCE2AB600BA7186 /* AppDelegate.swift in Sources */,
 				B50A77EA1CCE452700BA7186 /* FourthViewController.swift in Sources */,
 			);
@@ -496,6 +512,7 @@
 				B50A77DE1CCE2AB600BA7186 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B50A77DF1CCE2AB600BA7186 /* Build configuration list for PBXNativeTarget "Immink_pset2Tests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +521,7 @@
 				B50A77E11CCE2AB600BA7186 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B50A77E21CCE2AB600BA7186 /* Build configuration list for PBXNativeTarget "Immink_pset2UITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +530,7 @@
 				B50A77E41CCE2AB600BA7186 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
