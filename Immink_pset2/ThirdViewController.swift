@@ -10,7 +10,7 @@ import UIKit
 
 class ThirdViewController: UIViewController {
 
-    var idstory = 0
+    var idstory = 1
     var AppendWord : String?
     var AppendWord2 : String?
     
@@ -40,6 +40,8 @@ class ThirdViewController: UIViewController {
         fourthViewController.wordString.append("\(AppendWord!)")
         
         fourthViewController.wordString.append("\(AppendWord2!)")
+        
+        fourthViewController.idstory = idstory
 
     }
     

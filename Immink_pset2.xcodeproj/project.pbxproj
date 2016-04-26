@@ -21,6 +21,11 @@
 		B5F4EAE01CCF572C007A09D3 /* Third3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F4EADF1CCF572C007A09D3 /* Third3ViewController.swift */; };
 		B5F4EAE21CCF5738007A09D3 /* Third4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F4EAE11CCF5738007A09D3 /* Third4ViewController.swift */; };
 		B5F4EAE41CCF5745007A09D3 /* Third5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F4EAE31CCF5745007A09D3 /* Third5ViewController.swift */; };
+		B5F4EAEB1CCFA7AB007A09D3 /* madlib1_tarzan.txt in Resources */ = {isa = PBXBuildFile; fileRef = B5F4EAE71CCFA7AB007A09D3 /* madlib1_tarzan.txt */; };
+		B5F4EAEC1CCFA7AB007A09D3 /* madlib2_university.txt in Resources */ = {isa = PBXBuildFile; fileRef = B5F4EAE81CCFA7AB007A09D3 /* madlib2_university.txt */; };
+		B5F4EAED1CCFA7AB007A09D3 /* madlib3_clothes.txt in Resources */ = {isa = PBXBuildFile; fileRef = B5F4EAE91CCFA7AB007A09D3 /* madlib3_clothes.txt */; };
+		B5F4EAEE1CCFA7AB007A09D3 /* madlib4_dance.txt in Resources */ = {isa = PBXBuildFile; fileRef = B5F4EAEA1CCFA7AB007A09D3 /* madlib4_dance.txt */; };
+		B5F4EAEF1CCFA7BB007A09D3 /* madlib0_simple.txt in Resources */ = {isa = PBXBuildFile; fileRef = B5F4EAF11CCFA7BB007A09D3 /* madlib0_simple.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +66,11 @@
 		B5F4EADF1CCF572C007A09D3 /* Third3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Third3ViewController.swift; sourceTree = "<group>"; };
 		B5F4EAE11CCF5738007A09D3 /* Third4ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Third4ViewController.swift; sourceTree = "<group>"; };
 		B5F4EAE31CCF5745007A09D3 /* Third5ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Third5ViewController.swift; sourceTree = "<group>"; };
+		B5F4EAE71CCFA7AB007A09D3 /* madlib1_tarzan.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = madlib1_tarzan.txt; sourceTree = SOURCE_ROOT; };
+		B5F4EAE81CCFA7AB007A09D3 /* madlib2_university.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = madlib2_university.txt; sourceTree = SOURCE_ROOT; };
+		B5F4EAE91CCFA7AB007A09D3 /* madlib3_clothes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = madlib3_clothes.txt; sourceTree = SOURCE_ROOT; };
+		B5F4EAEA1CCFA7AB007A09D3 /* madlib4_dance.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = madlib4_dance.txt; sourceTree = SOURCE_ROOT; };
+		B5F4EAF01CCFA7BB007A09D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text; name = Base; path = Base.lproj/madlib0_simple.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +132,11 @@
 				B50A77E91CCE452700BA7186 /* FourthViewController.swift */,
 				B50A77BB1CCE2AB600BA7186 /* Main.storyboard */,
 				B50A77BE1CCE2AB600BA7186 /* Assets.xcassets */,
+				B5F4EAF11CCFA7BB007A09D3 /* madlib0_simple.txt */,
+				B5F4EAE71CCFA7AB007A09D3 /* madlib1_tarzan.txt */,
+				B5F4EAE81CCFA7AB007A09D3 /* madlib2_university.txt */,
+				B5F4EAE91CCFA7AB007A09D3 /* madlib3_clothes.txt */,
+				B5F4EAEA1CCFA7AB007A09D3 /* madlib4_dance.txt */,
 				B50A77C01CCE2AB600BA7186 /* LaunchScreen.storyboard */,
 				B50A77C31CCE2AB600BA7186 /* Info.plist */,
 			);
@@ -251,7 +266,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B50A77C21CCE2AB600BA7186 /* LaunchScreen.storyboard in Resources */,
+				B5F4EAED1CCFA7AB007A09D3 /* madlib3_clothes.txt in Resources */,
+				B5F4EAEB1CCFA7AB007A09D3 /* madlib1_tarzan.txt in Resources */,
 				B50A77BF1CCE2AB600BA7186 /* Assets.xcassets in Resources */,
+				B5F4EAEF1CCFA7BB007A09D3 /* madlib0_simple.txt in Resources */,
+				B5F4EAEC1CCFA7AB007A09D3 /* madlib2_university.txt in Resources */,
+				B5F4EAEE1CCFA7AB007A09D3 /* madlib4_dance.txt in Resources */,
 				B50A77BD1CCE2AB600BA7186 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -336,6 +356,14 @@
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
+		};
+		B5F4EAF11CCFA7BB007A09D3 /* madlib0_simple.txt */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5F4EAF01CCFA7BB007A09D3 /* Base */,
+			);
+			name = madlib0_simple.txt;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXVariantGroup section */
 
