@@ -14,6 +14,7 @@ class ThirdViewController: UIViewController {
     var AppendWord : String?
     var AppendWord2 : String?
     
+    // make inputfields
     @IBOutlet weak var inputField: UITextField!
     @IBOutlet weak var InputField2: UITextField!
 
@@ -27,12 +28,14 @@ class ThirdViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    // if button clicked save inputfields
     
     @IBAction func ButtonClicked(sender: AnyObject) {
         AppendWord = inputField.text
         AppendWord2 = InputField2.text
     }
     
+    // sent to next page
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         
         let fourthViewController = segue.destinationViewController as! FourthViewController

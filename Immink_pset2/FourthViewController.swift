@@ -10,13 +10,15 @@ import UIKit
 import Foundation
 
 class FourthViewController: UIViewController {
-
+    // make textfield
     @IBOutlet weak var InputField: UITextView!
- 
+    
+    // variable for filled in words adn type of story
     var wordString: [String] = []
     var idstory = 0
     var fileName = ""
     
+    //pick story
     override func viewDidLoad() {
         super.viewDidLoad()
     
@@ -35,7 +37,7 @@ class FourthViewController: UIViewController {
         else if idstory == 5 {
             fileName = "madlib4_dance"
         }
-
+// read in file
         let fileLocation = NSBundle.mainBundle().pathForResource(fileName, ofType: "txt")
         let content = try? String(contentsOfFile: fileLocation!, encoding: NSUTF8StringEncoding)
         
@@ -47,6 +49,7 @@ class FourthViewController: UIViewController {
     }
     
 }
+// make class
 class Story {
     private var text: String                    // Text of the story.
     private var placeholders: Array<String>     // List of placeholders to fill in.

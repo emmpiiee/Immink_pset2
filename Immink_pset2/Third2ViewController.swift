@@ -9,6 +9,7 @@
 import UIKit
 
 class Third2ViewController: UIViewController {
+    // make variables for storage
     var Word1 : String?
     var Word2 : String?
     var Word3 : String?
@@ -23,6 +24,7 @@ class Third2ViewController: UIViewController {
     var Word12 : String?
     var Word13 : String?
     
+    // make texfield inputs
     @IBOutlet weak var AppendWord1: UITextField!
     @IBOutlet weak var AppendWord2: UITextField!
     @IBOutlet weak var AppendWord3: UITextField!
@@ -37,6 +39,7 @@ class Third2ViewController: UIViewController {
     @IBOutlet weak var AppendWord12: UITextField!
     @IBOutlet weak var AppendWord13: UITextField!
     
+     // make array and pick story
     var AppendString: Array<String> = []
     var idstory = 2
     
@@ -50,7 +53,7 @@ class Third2ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
+    //if button clicked attach words to variables
     @IBAction func IfButtonClicked(sender: AnyObject) {
         Word1 = AppendWord1.text
         Word2 = AppendWord2.text
@@ -67,7 +70,7 @@ class Third2ViewController: UIViewController {
         Word13 = AppendWord13.text
     }
 
-    
+     // append variables to array string
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         
         let fourthViewController = segue.destinationViewController as! FourthViewController
